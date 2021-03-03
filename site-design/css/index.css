@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    background-color: rgba(211, 211, 211, 0.979);
+}
+
+.menu-bar{
+    display: flex;
+    justify-content:center;
+    border-bottom: 1px solid lightgrey;
+    }
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#A73912;
+    border-bottom: 1px solid grey;
+}
+
+
+/******* sur écran réduit ************/
+
+.menu-bar .menu-bar-toggler{
+    padding-right: 20px;
+    outline: none;
+    border:none;
+}
+.navbar .fa{
+    color:#A73912;
+    font-size: 26px;
+}
+
+@media only screen and (max-width:1000px){
+    body{
+        margin:15px;
+    }
+    .right-bar{
+       margin-left: auto;
+    }
+    .navbar-light .navbar-toggler:hover{
+        color:#A73912;
+    }
+}
