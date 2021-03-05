@@ -1,5 +1,5 @@
 <!doctype html />
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,64 +9,122 @@
     <title>Andromeda|Design Créateur de Rêve</title>
   </head>
     <body>
-          <!--Navbar-->
+        <!--Navbar-->
+        <div class="fixedmenu w-100">
           <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-              <div class="col-md">
-                <a class="navbar-brand" href="#"><img src="images/Logo_Andromeda_noir.PNG" alt="ANDROMEDA" title="Logo ANDROMEDA" class="logoAndromeda" width="385px" /></a>
-                <p class="catchPhrase">créateur de rêve</p>
-              </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavigation" aria-controls="menuNavigation" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-              </button>
-              <nav class="collapse navbar-collapse" id="menuNavigation">
-                <a class="nav-link" href="#history">Notre épopée</a>
-                <a class="nav-link" href="#carouselProducts">Nos créations</a>
-                <a class="nav-link" href="#adresseShowroom">Notre boutique</a>
-              </nav>
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="col-md">
+              <a class="navbar-brand" href="#"><img src="images/Logo_Andromeda_noir.PNG" alt="ANDROMEDA" title="Logo ANDROMEDA" class="logoAndromeda" width="385px" /></a>
+              <p class="catchPhrase">créateur de rêve</p>
             </div>
-          </nav>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavigation" aria-controls="menuNavigation" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa fa-bars"></i>
+            </button>
+            <nav class="collapse navbar-collapse" id="menuNavigation">
+              <a class="nav-link" href="#history">Notre épopée</a>
+              <a class="nav-link" href="#carouselProducts">Nos créations</a>
+              <a class="nav-link" href="#adresseShowroom">Notre boutique</a>
+            </nav>
+          </div>
+          </div>
+        </nav>
+      </div>
+      <!--Histoire-->
+      <div class="container">
+        <div class="row">
+          <div id="history">Depuis 1874, ANDROMEDA imagine des formes innovantes pour le mobilier de demain.<br />
+            Maison fondée par Andromeda Stark, la designer à révolutioné le monde du mobilier avec son utilisation des nouveaux matériaux.<br />
+            L'utilisation de différents matérieaux synthétique à libéré la créativité et permi des motifs et des silhouettes jusque là impossibles.<br />
+            Les matériaux modernes tels que le Polychlorure de Vinyle, le Polyéthylène Haute Densité ou le Polypropylène <br />
+            permettent à notre designer super-star, Apollon Stark, de laisser libre court à sa créativité et son imagination.
+          </div>
         </div>
-        <!--Histoire-->
-        <div class="container">
-          <div class="row">
-            <div id="history">Depuis 1874, ANDROMEDA imagine des formes innovantes pour le mobilier de demain.<br />
-              Maison fondée par Andromeda Stark, la designer à révolutioné le monde du mobilier avec son utilisation des nouveaux matériaux.<br />
-              L'utilisation de différents matérieaux synthétique à libéré la créativité et permi des motifs et des silhouettes jusque là impossibles.<br />
-              Les matériaux modernes tels que le Polychlorure de Vinyle, le Polyéthylène Haute Densité ou le Polypropylène <br />
-              permettent à notre designer super-star, Apollon Stark, de laisser libre court à sa créativité et son imagination.
+      </div>
+      <!--Caroussel-->
+      <div class="container">
+        <div id="carouselProducts" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselProducts" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselProducts" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselProducts" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/colored-chair.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/white-chair.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/yellow-chair.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProducts"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProducts"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </div>
+      <section>
+      <div class="container p-3">
+        <div class="row d-flex justify-content-around">
+          <div class="backColor card p-2 m-4" style="width: 20rem;">
+            <img src="./images/furniture.jpg" class="card-img-top img-fluid" alt="Chaise"style="height:250px;">
+            <div class="card-body">
+              <h5 class="card-title">Les chaises</h5>
+              <p class="card-text">Où il fait bon de poser son cul. Une assise stable et confortable pour tous types de postérieurs.</p>
+              <a href="#" class="btn"><i class="fas fa-arrow-circle-right"></i> Explorer la galerie</a>
+            </div>
+          </div>
+          <div class="backColor card p-2 m-4" style="width: 20rem;">
+            <img src="./images/desk.jpg" class="card-img-top img-fluid" alt="bureau" style="height:250px;">
+              <div class="card-body">
+              <h5 class="card-title">Les bureaux</h5>
+              <p class="card-text">Ba ouai faut bien faire semblant de travailler, parfois. Non jdéc. Je travaille vraiment, des fois.</p>
+              <a href="#" class="btn"><i class="fas fa-arrow-circle-right"></i> Explorer la galerie</a>
+            </div>
+          </div>
+          <div class="backColor card p-2 m-4" style="width: 20rem;">
+            <img src="./images/armchair.jpg" class="card-img-top img-fluid" alt="..." style="height:250px;">
+              <div class="card-body">
+              <h5 class="card-title">Fauteuil</h5>
+              <p class="card-text">Avant l'effort, le réconfort... Et après aussi. Et pendant.<br />Relaxation en perspective</p>
+              <a href="#" class="btn"><i class="fas fa-arrow-circle-right"></i> Explorer la galerie</a>
             </div>
           </div>
         </div>
-        <!--Caroussel-->
-        <div class="container">
-          <div id="carouselProducts" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselProducts" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselProducts" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselProducts" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div class="row d-flex justify-content-around">
+          <div class="backColor card p-2 m-4" style="width: 20rem;">
+            <img src="./images/tablesbasses.jpg" class="card-img-top img-fluid" alt="..." style="height:250px;">
+            <div class="card-body">
+              <h5 class="card-title">Tables basses</h5>
+              <p class="card-text">Important pour l'apéro party. Jamy, fait péter les cahouètes!<br />Et le chocolat aux amandes.</p>
+              <a href="#" class="btn"><i class="fas fa-arrow-circle-right"></i> Explorer la galerie</a>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/DesignInterieur.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="images/contemporary-comfort-g2-13.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="images/contemporary-comfort-g2-13.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselProducts"  data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselProducts"  data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
           </div>
+          <div class="backColor card p-2 m-4" style="width: 20rem;">
+            <img src="./images/table.jpg" class="card-img-top img-fluid" alt="Chaise" style="height:250px;">
+            <div class="card-body">
+              <h5 class="card-title">Les tables pas basses</h5>
+              <p class="card-text">C'est quand même plus pratique pour les dîner en famille, les soirées crêpes, les raclettes.</p>
+              <a href="#" class="btn"><i class="fas fa-arrow-circle-right"></i> Explorer la galerie</a>
+            </div>
+          </div>
+          <div class="backColor card p-2 m-4" style="width: 20rem;">
+            <img src="./images/salon.jpg" class="card-img-top img-fluid" alt="bureau" style="height:250px;">
+            <div class="card-body">
+              <h5 class="card-title">Pour le salon</h5>
+              <p class="card-text">Vous êtes plutôt soap-opera, Netflix & Chill, football ou films d'actions ?<br /> Soirée nanars ?</p>
+              <a href="#" class="btn"><i class="fas fa-arrow-circle-right"></i> Explorer la galerie</a>
+            </div>
+            </div>
+          </div>    
         </div>
+        </section>
         <section>
         <!--partie formulaire du site web pour le formulaire contact bubble avec tout les éléments contenue dans box-form-->
           <div class="box-form">
@@ -95,7 +153,7 @@
         <!--Embed GoogleMap-->
         <div class="container fluid" id="adresseShowroom">
           <div class="row">
-            <div class="col"><span>Venez nous rendre visite et admirer notre collection à notre showroom parisien :</span></div>
+            <div class="col text-center p-2 border-top"><span>Venez nous rendre visite et admirer notre collection à notre showroom parisien :</span></div>
           </div>
           <div class="row">
             <div class="col showroom"><img src="./images/showroom.jpg" width="100%" /></div>
@@ -121,7 +179,7 @@
               </div>
           </div>
           <div class="legal">  
-              <p><a href="#">Mentions légales</a> - <a href="#">Conditions de vente</a></p>
+              <p><a href="#">Mentions légales</a> - <a href="#">Conditions de vente</a> - <a href="#">Notre philosophie</a> - <a href="#">Presse</a></p>
           </div> 
           <div class="copyright">
               <p>Copyright © 2021 ANDROMEDA Design Tous droits réservés </p>
